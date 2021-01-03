@@ -1,2 +1,2 @@
 # SlimPHP
-Develop of an API Using Slim PHP Framework
+Development of an API Using Slim PHP Framework
