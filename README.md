@@ -16,7 +16,7 @@
 
 <h4 align="center">Documentação Aplicação Slim Framework</h4>
 
-<p align="center">Desenvolvimento de uma API (Application Programming Interface) para obtenção de cores a partir de uma base de dados (`mysql`)</p<>
+<p align="center">Desenvolvimento de uma API (Application Programming Interface) para obtenção de cores a partir de uma base de dados MySQL</p<>
 
 <h6 align="center"><a href="http://www.slimframework.com/docs/v4/start/installation.html">📜 Installing</a></h6>
 
