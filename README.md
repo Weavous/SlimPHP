@@ -47,7 +47,7 @@
 Copiar o conteúdo exibido como exemplo na página inicial para o arquivo `index.php`
 
 ```bash
-    php -S 127.0.0.1:8080
+    php -S 127.0.0.1:8080 -t public
 
     firefox --new-tab 127.0.0.1:8080/hello/$USER
 ```
