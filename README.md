@@ -16,7 +16,7 @@
 
 <h4 align="center">Documentação Aplicação Slim Framework</h4>
 
-<p align="center">Desenvolvimento de uma API (Application Programming Interface) para obtenção de cores a partir de uma base de dados (`postgres`)</p<>
+<p align="center">Desenvolvimento de uma API (Application Programming Interface) para obtenção de cores a partir de uma base de dados (`mysql`)</p<>
 
 <h6 align="center"><a href="http://www.slimframework.com/docs/v4/start/installation.html">📜 Installing</a></h6>
 
@@ -67,14 +67,16 @@ Copiar o conteúdo exibido como exemplo na página inicial para o arquivo `index
     RewriteRule ^ index.php [QSA,L]
 ```
 
-> Criação da base de dados e inserção de alguns registros, a partir do script `psql.sql`
+<h6 align="center">Criação da base de dados e inserção dos registros</h6>
 
 ```bash
-    psql --user postgres --host 127.0.0.1 --port 5432
+    mysqlsh --user root --host 127.0.0.1 --port 3306
 
-    CREATE DATABASE api;
+    CREATE DATABASE slim;
+
+    source "C:\Users\Wesley Flôres\Documents\GITHUB\SlimPHP\Brazilian States's.SQL"
+
+    source "C:\Users\Wesley Flôres\Documents\GITHUB\SlimPHP\Animals.SQL"
 
     \q
-
-    psql --user postgres --host 127.0.0.1 -d api -a -f ~/Documents/SLIM/Slim\ Framework/psql.sql
 ```
